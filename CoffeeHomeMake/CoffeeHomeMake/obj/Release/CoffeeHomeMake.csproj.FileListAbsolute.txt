@@ -1,0 +1,65 @@
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.exe.config
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.exe
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.pdb
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.BillCheckOut.resources
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.LogIn.resources
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ManagerHome.resources
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.Properties.Resources.resources
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.Restaurant.resources
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.csproj.GenerateResource.Cache
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.exe
+E:\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.pdb
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.exe.config
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.exe
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.pdb
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.exe
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.pdb
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.BillCheckOut.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.DetailTatistical.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ImportCoupon.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ListFiredStaff.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.LogIn.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ManagerHome.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ManagermentStaff.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgAccount.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgCategory.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgProduct.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgReportMonth.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgReportPerDay.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgStoreHouse.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgSupplier.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ProlemProduct.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.Properties.Resources.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.Restaurant.resources
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.csproj.GenerateResource.Cache
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\RdlCompile.cache
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\RdlCompile.compiled
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.csprojResolveAssemblyReference.cache
+C:\Users\minht\OneDrive\Máy tính\C#\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgChangeInfoThisAccount.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.exe.config
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.exe
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.pdb
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.csprojResolveAssemblyReference.cache
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.BillCheckOut.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.DetailTatistical.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ImportCoupon.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ListFiredStaff.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.LogIn.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ManagerHome.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ManagermentStaff.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgAccount.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgCategory.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgChangeInfoThisAccount.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgProduct.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgReportMonth.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgReportPerDay.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgStoreHouse.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.mgSupplier.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.ProlemProduct.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.Properties.Resources.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.Restaurant.resources
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\CoffeeHomeMake.csproj.GenerateResource.Cache
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.exe
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\bin\Release\CoffeeHomeMake.pdb
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\RdlCompile.cache
+E:\C# Winform\WindowForm\CoffeeHomeMake\CoffeeHomeMake\obj\Release\RdlCompile.compiled

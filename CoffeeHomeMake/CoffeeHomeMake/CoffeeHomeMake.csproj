@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DF8B0A9-4CF5-4088-B954-A55B783BED3E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoffeeHomeMake</RootNamespace>
+    <AssemblyName>CoffeeHomeMake</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillCheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillCheckOut.Designer.cs">
+      <DependentUpon>BillCheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeHomeMakeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoffeeHomeMakeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\BillDAO.cs" />
+    <Compile Include="DAO\BillInfoDAO.cs" />
+    <Compile Include="DAO\CategoryDAO.cs" />
+    <Compile Include="DAO\cons.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\ImportGoodsDAO.cs" />
+    <Compile Include="DAO\MaterialDAO.cs" />
+    <Compile Include="DAO\PersonnelDAO.cs" />
+    <Compile Include="DAO\PersonnelInfoDAO.cs" />
+    <Compile Include="DAO\PersonnelTypeDAO.cs" />
+    <Compile Include="DAO\ProductDAO.cs" />
+    <Compile Include="DAO\MenuBillDAO.cs" />
+    <Compile Include="DAO\ProlemProductDAO.cs" />
+    <Compile Include="DAO\SupplierDAO.cs" />
+    <Compile Include="DAO\SupplierListDAO.cs" />
+    <Compile Include="DAO\SupplierTypeDAO.cs" />
+    <Compile Include="DAO\TableFoodDAO.cs" />
+    <Compile Include="DAO\Top10SellDAO.cs" />
+    <Compile Include="DAO\WorkPlaceDAO.cs" />
+    <Compile Include="DetailTatistical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailTatistical.Designer.cs">
+      <DependentUpon>DetailTatistical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\Account.cs" />
+    <Compile Include="DTO\Bill.cs" />
+    <Compile Include="DTO\BillInfo.cs" />
+    <Compile Include="DTO\Category.cs" />
+    <Compile Include="DTO\DetailTop10.cs" />
+    <Compile Include="DTO\ImportGoods.cs" />
+    <Compile Include="DTO\Material.cs" />
+    <Compile Include="DTO\Personnel.cs" />
+    <Compile Include="DTO\PersonnelInfo.cs" />
+    <Compile Include="DTO\PersonnelType.cs" />
+    <Compile Include="DTO\Product.cs" />
+    <Compile Include="DTO\MenuBill.cs" />
+    <Compile Include="DTO\ProlemProductList.cs" />
+    <Compile Include="DTO\Supplier.cs" />
+    <Compile Include="DTO\SupplierList.cs" />
+    <Compile Include="DTO\SupplierType.cs" />
+    <Compile Include="DTO\TableFood.cs" />
+    <Compile Include="DTO\Top10Sell.cs" />
+    <Compile Include="DTO\WorkPlace.cs" />
+    <Compile Include="ImportCoupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportCoupon.Designer.cs">
+      <DependentUpon>ImportCoupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListFiredStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListFiredStaff.Designer.cs">
+      <DependentUpon>ListFiredStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerHome.Designer.cs">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagermentStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagermentStaff.Designer.cs">
+      <DependentUpon>ManagermentStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mgAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgAccount.Designer.cs">
+      <DependentUpon>mgAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mgCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgCategory.Designer.cs">
+      <DependentUpon>mgCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mgChangeInfoThisAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgChangeInfoThisAccount.Designer.cs">
+      <DependentUpon>mgChangeInfoThisAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mgProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgProduct.Designer.cs">
+      <DependentUpon>mgProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mgReportMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgReportMonth.Designer.cs">
+      <DependentUpon>mgReportMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mgReportPerDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgReportPerDay.Designer.cs">
+      <DependentUpon>mgReportPerDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mgStoreHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgStoreHouse.Designer.cs">
+      <DependentUpon>mgStoreHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mgSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgSupplier.Designer.cs">
+      <DependentUpon>mgSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProlemProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProlemProduct.Designer.cs">
+      <DependentUpon>ProlemProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Restaurant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Restaurant.Designer.cs">
+      <DependentUpon>Restaurant.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BillCheckOut.resx">
+      <DependentUpon>BillCheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailTatistical.resx">
+      <DependentUpon>DetailTatistical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportCoupon.resx">
+      <DependentUpon>ImportCoupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListFiredStaff.resx">
+      <DependentUpon>ListFiredStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerHome.resx">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagermentStaff.resx">
+      <DependentUpon>ManagermentStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgAccount.resx">
+      <DependentUpon>mgAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgCategory.resx">
+      <DependentUpon>mgCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgChangeInfoThisAccount.resx">
+      <DependentUpon>mgChangeInfoThisAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgProduct.resx">
+      <DependentUpon>mgProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgReportMonth.resx">
+      <DependentUpon>mgReportMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgReportPerDay.resx">
+      <DependentUpon>mgReportPerDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgStoreHouse.resx">
+      <DependentUpon>mgStoreHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgSupplier.resx">
+      <DependentUpon>mgSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProlemProduct.resx">
+      <DependentUpon>ProlemProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Restaurant.resx">
+      <DependentUpon>Restaurant.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CoffeeHomeMakeDataSet.xsc">
+      <DependentUpon>CoffeeHomeMakeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CoffeeHomeMakeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoffeeHomeMakeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoffeeHomeMakeDataSet.xss">
+      <DependentUpon>CoffeeHomeMakeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tru.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tru1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shortby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgReport.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backGround.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NhaHnag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gIOhANG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thongKe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fastfood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shushi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fruit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconChart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ware.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
